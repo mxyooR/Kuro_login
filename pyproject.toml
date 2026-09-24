@@ -5,10 +5,6 @@ description = "本项目为 Kuro-AutoSignin 的附属项目，用来获取库街
 requires-python = ">=3.11"
 dependencies = [
     "requests>=2.34.2",
-]
-
-[project.optional-dependencies]
-auto-login = [
     "httpx>=0.28.1",
     "loguru>=0.7.3",
     "numpy>=2.4.6",
